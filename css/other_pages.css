@@ -1,0 +1,130 @@
+body
+{
+  background-color: #949F7F;
+}
+
+h1 
+{
+ font-family: 'Piazzolla', serif;
+  color: #2F3525 ;
+  text-align: center;
+}
+h3
+{
+
+ font-family: 'Piazzolla', serif;
+ color: #2F3525 ;
+ text-align: center;
+}
+h4
+{
+ font-family: 'Piazzolla', serif;
+ color: #2F3525 ;
+ size: 18px;
+}
+div.container 
+{
+  width: 70%;
+  height: 90%; 
+  margin: auto; 
+  padding: 3%; 
+  margin-top: 60px;
+  border: double 2px #2F3525;
+}
+img.hydropower
+{
+  height:200px;
+  width: 300px;
+  display:block;
+  margin:auto;
+  padding: 50px;
+}
+img.hydropower:hover
+{
+  transform: scale(1.2,1.2);  
+  transition: transform 1s 1s linear;
+}
+img.wind
+{
+  height:200px;
+  display:block;
+  margin:auto;
+  padding: 50px;
+}
+
+img.wind:hover
+{
+  transform: rotate(4deg); 
+  transition: transform 1s 1s linear;
+}
+
+img.solar
+{
+  height:200px;
+  width: 300px;
+  display:block;
+  margin:auto;
+  padding: 65px;
+}
+img.solar:hover
+{
+  transform: rotate(10deg); 
+  transition: transform 1s 1s linear;
+}
+img.Biomass
+{
+  height:200px;
+  width: 300px;
+  display:block;
+  margin:auto;
+  padding: 50px;
+}
+img.Biomass:hover
+{
+  transform:translate(0px,30px) ; 
+  transition: transform 1s 1s linear;
+}
+img.Geothermal
+{
+  height:200px;
+  width: 300px;
+  display:block;
+  margin:auto;
+  padding: 50px;
+}
+img.Geothermal:hover
+{
+  transform: scale(0.80,0.80);  
+  transition: transform 1s 1s linear;
+}
+hr
+{
+  color: #2F3525;
+  background-color:#2F3525; 
+  width: 3%;
+  height: 1px;
+}
+p 
+{
+  size: 3%;
+  text-align: justify;
+  color: black ;
+}
+div.block_flex
+{
+  width: 650px;
+  height: 30px;
+  font-size: 14pt;
+  font-weight: bolder;
+  font-family: 'Piazzolla', serif;
+  margin:auto;
+  padding:2%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a
+{
+
+  color:#2F3525;
+}
